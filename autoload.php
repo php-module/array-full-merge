@@ -9,7 +9,7 @@
  * - Autoload, application dependencies
  */
 namespace Sammy\Packs\SamiTokens {
-  use sammy\Packs\IncludeAll;
+  use Sammy\Packs\IncludeAll;
 
   $autoloadFile = __DIR__ . '/vendor/autoload.php';
 
