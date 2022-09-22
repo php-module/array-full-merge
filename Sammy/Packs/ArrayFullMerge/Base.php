@@ -73,7 +73,7 @@ namespace Sammy\Packs\ArrayFullMerge {
      * @author Ag
      * @keywords Function Keywords
      */
-    public static final function ArrayFullMerge ($array1) {
+    public static function ArrayFullMerge ($array1) {
       $finalArray = $array1;
 
       $arrayList = array_slice (
