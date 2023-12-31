@@ -98,7 +98,9 @@ namespace Sammy\Packs\ArrayFullMerge {
               self::ArrayFullMerge ($finalArray [ $key ], $val)
             );
           } elseif (is_int ($key)) {
-            $finalArray [] = $val;
+            if (!in_array ($val, $finalArray)) {
+              $finalArray [] = $val;
+            }
           } else {
             $finalArray [ $key ] = $val;
           }
